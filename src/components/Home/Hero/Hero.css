@@ -1,0 +1,32 @@
+.main-container {
+    display: flex;
+    flex: 2fr 1fr;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.main-content-text h1 {
+    font-size: 40px;
+    margin-top: 5rem;
+    color: var(--color-dark);
+    text-shadow: 2px 4px 4px rgba(38, 42, 49, 0.6);
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.next {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.discover {
+    font-size: 12px;
+}

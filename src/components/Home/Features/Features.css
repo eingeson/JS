@@ -1,0 +1,16 @@
+.brand-page-main-container {
+    display: flex;
+    flex: 1fr 2fr;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.app-features-container {
+    margin-left: 5rem;
+    display: block;
+  
+    .app-features {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+}

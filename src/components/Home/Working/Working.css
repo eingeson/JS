@@ -1,0 +1,22 @@
+#phone-section {
+    background-color: #F3F6FF;
+}
+
+.phone-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.phone-section-heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.footer-phone-section {
+    display: flex;
+    justify-content: center;
+}

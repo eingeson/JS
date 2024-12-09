@@ -1,0 +1,160 @@
+.faq-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.left-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.right-section {
+    flex: 1;
+    min-width: 250px;
+    min-height: 400px;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-option {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.contact-option .icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #4b72e0;
+}
+
+.contact-option .text {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.contact-option a {
+    display: block;
+    color: #4b72e0;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.faq-loading-container {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq {
+    background: #f5f5f5;
+    padding: 15px;
+    border-radius: 12px;
+    max-height: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq.open {
+    max-height: 500px;
+    transition-timing-function: ease-in;
+    transition-duration: 0.4s;
+}
+
+.faq-question {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-arrow {
+    background: #f5f5f5;
+    color: #555;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition:
+        transform 0.3s,
+        background 0.3s;
+    margin-left: 10px;
+    border: 2px solid #ccc;
+}
+
+.faq-answer {
+    padding-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.newsletter {
+    width: 100%;
+    background: #f0f4ff;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: left;
+    margin-top: 30px;
+}
+
+.newsletter .icon {
+    font-size: 24px;
+    color: #4b72e0;
+}
+
+.newsletter .text {
+    flex-grow: 1;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1f1f1f;
+}
+
+.subscription {
+    display: flex;
+    gap: 5px;
+}
+
+.subscription input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.subscription button {
+    padding: 10px 15px;
+    border: none;
+    background: #4b72e0;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.subscription button:hover {
+    background: #3a5bbd;
+}
